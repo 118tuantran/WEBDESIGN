@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            background-color: black;
+        }
+        .container {
+            display: flex;
+            background-color: black;
+            margin-left: 91px;
+            justify-content: space-around;
+            color: black;
+            width: 100%;
+            height: auto;
+            font-size: 24px;
+        }
+        .menu {
+            position: fixed;
+            display: flex;
+            background-color: rgb(105, 105, 105);
+            flex-direction: column;
+            height: 100vh;
+            width: 6%;
+            top: 0;
+            left: 0;
+            align-items: center;
+        }
+        .body1 {
+            width: 49%;
+            margin: 20px 0;
+            background-color: #333B46;
+            display: flex;
+            height: auto;
+            border-radius: 20px;
+            flex-direction: column;
+            gap: 10px;
+            color: aliceblue;
+            font-size: larger;
+        }
+        .body2 {
+            width: 49%;
+            margin: 20px 0;
+            background-color: #25292d;
+            display: flex;
+            justify-content: center;
+            height: auto;
+            border-radius: 20px;
+            align-items: center;
+            color: black;
+            font-size: 24px;
+        }
+        .body2 img {
+            height: 100%;
+            width: 100%;
+            flex: 1;
+            object-fit: cover;
+            border-radius: 20px;
+        }
+        button {
+            background-color: #6A4EDE;
+            color: white;
+            border: none;
+            padding: 30px;
+            width: 30%;
+            border-radius: 40px;
+            font-size: 16px;
+            margin: 20px;
+        }
+        button:hover {
+            background-color: #5B3EB8;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <div style="position: relative; top: 10px;">
+            <img src="https://png.pngtree.com/png-clipart/20230802/original/pngtree-magnifying-glass-icon-symbol-square-handle-vector-picture-image_9329337.png" alt="" width="60px" height="auto">
+        </div>
+    </div>
+    <div style="display: flex; justify-content: center;">
+        <div class="container">
+            <div class="body1">
+                <h1 style="font-size: 80px; position: relative; left: 70px;">Material <br> Design</h1>
+                <div style="font-size: 25px; width: 85%; position: relative; left: 70px;">
+                    Material 3 is the latest version of Google’s open-source design system. Design and build beautiful, usable products with Material 3.
+                </div>
+                <div style="position: relative; left: 70px; margin-bottom: 40px;">
+                    <button>Get Started</button>
+                </div>
+            </div>
+            <div class="body2">
+                <img src="https://cdn.pixabay.com/photo/2024/08/19/15/01/sunflowers-8980921_1280.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
